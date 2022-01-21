@@ -6,7 +6,7 @@ import 'database.dart';
 void main() async {
   await ProductDB.open();
   await ProductDB.batchInput();
-  await runApp(const MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
